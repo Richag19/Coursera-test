@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		div{
+			border:2px solid red;
+		}
+		p{
+			background-color: blue;
+			border:solid black 2px;
+			height:50px;width:50px;
+			margin:1px;
+			padding:4px;
+
+		}
+		.wrapper{
+
+			background: pink;
+			position:relative;
+
+
+		}
+		#box1{
+			background: red;
+			position:relative;
+			top:50px;
+			left:1%;
+
+		}
+		#box2{
+			background: green;
+			position:relative;
+			top:0px;
+			left:40%;
+
+
+		}
+		#box3{
+			background: blue;
+			position:relative;
+			top:-50px;
+			left:90%;
+
+		}
+		#circle1{
+			border-radius: 20px;
+			background:red;
+			position: relative;
+			top:10px;
+			left:1%;
+
+		}
+		#circle2{
+			border-radius: 20px;
+			background:green;
+			position: relative;
+			top:-40px;
+			left:40%;
+		}
+		#circle3{
+			border-radius: 20px;
+			background:blue;
+			position: relative;
+			top:-90px;
+			left:90%;
+		}
+		/*section{
+			position: relative;
+		}*/
+
+	</style>
+</head>
+<body>
+<div>
+	<h1>Position of elements</h1>
+</div>
+<div class="wrapper">
+	<p id="box1"> Box 1</p>
+	<p id="box2"> Box 2</p>
+	<p id="box3"> Box 3</p>
+	<section>wrapper 1</section>
+</div>
+<div class="wrapper">
+	<p id="circle1"> circle 1</p>
+	<p id="circle2"> circle 2</p>
+	<p id="circle3"> circle 3</p>
+	<section>wrapper 2</section>
+</div>
+</body>
+</html>
