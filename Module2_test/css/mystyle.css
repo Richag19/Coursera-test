@@ -88,9 +88,9 @@ h2{
 		width:48%; height: 200px;
 		display: inline-flex;
 		column-span: 2;
-
-			
-		
+	}
+	#s3{
+		width:98%;
 	}
 
 }
