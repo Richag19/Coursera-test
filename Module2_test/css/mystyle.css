@@ -8,14 +8,12 @@ body{
 	font-family: Georgia;
 	background: #00ddaa;
 	font-size: 20px;
-
 }
 
 
 .row{	
 position: relative;
 width: 100%;
-
 }
 
 h1{
@@ -36,11 +34,9 @@ h2{
 	padding: 4px;
 	position: relative;
 	border:2px solid black;
-		
 }
 
 .sectiontitle{
-	
 	position: absolute;
 	margin:0px;
 	top:0px;
@@ -48,14 +44,11 @@ h2{
 	border:1px solid black;
 	padding:5px;
 	text-align: center;
-
 }
 
  .planttxt {
- 	
-	padding:2px;
+ 	padding:2px;
 	margin-top: 30px;
-	
 }
 
 #title1{
@@ -71,14 +64,12 @@ h2{
 #title3{
 	background:white;
 	color: black;
-	
 }
 
 @media (min-width: 992px){
 .col_lg{
-	width:32%;
+	width:32%; height:200px;
 	float:left;
-	
 }
 }
 
