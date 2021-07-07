@@ -77,7 +77,6 @@ h2{
 @media (min-width: 992px){
 .col_lg{
 	width:32%;
-	height:200px;
 	float:left;
 	
 }
@@ -85,7 +84,7 @@ h2{
 
 @media(min-width: 768px) and (max-width: 991px){
 	.col_md{
-		width:48%; height: 200px;
+		width:48%; 
 		display: inline-flex;
 		column-span: 2;
 	}
